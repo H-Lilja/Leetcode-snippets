@@ -1,7 +1,8 @@
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-// Link to the assingment: https://leetcode.com/problems/count-days-without-meetings/
+
+// Link to the assignment: https://leetcode.com/problems/count-days-without-meetings/
 
 public class DaysWithoutMeetings {
 
@@ -52,10 +53,10 @@ public class DaysWithoutMeetings {
 
     // Testing the snippet
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        DaysWithoutMeetings daysWithoutMeetings = new DaysWithoutMeetings();  
         // Testing using the given days and meeting intervals
         int[][] meetings = {{5, 7}, {1, 3}, {9, 10}}; 
-        int result = solution.countDays(10, meetings); 
+        int result = daysWithoutMeetings.countDays(10, meetings); 
         // Output the result
         System.out.println("Remaining days: " + result); 
     }
